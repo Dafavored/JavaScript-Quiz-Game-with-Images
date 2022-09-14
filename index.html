@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>JavaScript Quiz Game With Images</title>
+<link href="mystyle.css" rel="stylesheet">
+<script src="jscript.js"></script>
+</head>
+<body>
+
+<h1> Types of Lions Special Quiz </h1>
+<hr>
+
+<form id="quiz" name="quiz">
+<p> *** Use radio button to answer questions below ***</p>
+
+<p></br><img src="Images/White-Lion.jpg.webp" height=200pt; width=200pt; class="lion_images"> </p>
+<p>1. What type of Lion is displayed above? </p>
+<input type="radio" id="ans" name="question1" value="White Lion">White Lion
+<input type="radio" id="ans" name="question1" value="The Asiatic">The Asiatic
+<input type="radio" id="ans" name="question1" value="African Lion"> African Lion
+<input type="radio" id="ans" name="question1" value="Katanga Lion"> Katanga Lion
+<br>
+
+<p></br><img src="Images/Abyssinian-Lion.jpg.webp" height=200pt; width=200pt; class="lion_images"> </p>
+<p>2. What type of Lion is displayed above? </p>
+<input type="radio" id="ans" name="question2" value="Masai Lion">Masai Lion
+<input type="radio" id="ans" name="question2" value="The Asiatic">The Asiatic
+<input type="radio" id="ans" name="question2" value="Katanga Lion"> Katanga Lion
+<input type="radio" id="ans" name="question2" value="Abyssinian Lion"> Abyssinian Lion 
+<br>
+
+<p></br><img src="Images/African-Lion.jpg.webp" height=200pt; width=200pt; class="lion_images"> </p>
+<p>3. What type of Lion is displayed above? </p>
+<input type="radio" id="ans" name="question3" value="Masai Lion">Masai Lion
+<input type="radio" id="ans" name="question3" value="African Lion"> African Lion
+<input type="radio" id="ans" name="question3" value="Katanga Lion"> Katanga Lion
+<input type="radio" id="ans" name="question3" value="The Asiatic">The Asiatic
+<br>
+
+<p></br><img src="Images/Katanga-Lion.jpg.webp" height=200pt; width=200pt; class="lion_images"> </p>
+<p>4. What type of Lion is displayed above? </p>
+<input type="radio" id="ans" name="question4" value="Masai Lion">Masai Lion
+<input type="radio" id="ans" name="question4" value="African Lion"> African Lion
+<input type="radio" id="ans" name="question4" value="Katanga Lion"> Katanga Lion
+<input type="radio" id="ans" name="question4" value="The Asiatic">The Asiatic
+<br>
+
+<input id="button" type="button" class="button" value="See results!" onclick="displayresults();">
+</form>
+
+<div id="after_submit" >
+    <p id="number_correct"></p>
+</div>
+
+<button class="refresh" onclick="refresh()">Refresh</button>
+
+</body> 

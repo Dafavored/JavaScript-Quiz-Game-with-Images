@@ -1,0 +1,21 @@
+#after_submit {
+    visibility:hidden;
+}
+.lion_images{
+    margin-left:100pt;
+}
+
+.button{
+    background-color: aqua;
+}
+
+.refresh{
+    background-color:greenyellow;
+}
+
+#after_submit{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color:aquamarine
+    
+}
